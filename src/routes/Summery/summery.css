@@ -1,0 +1,39 @@
+.summery-table {
+    width: 100%
+}
+.th1 {
+    width: 10%;
+}
+.th2 {
+    width: 10%;
+}
+.th3 {
+    width: 60%;
+}
+.th4 {
+		width: 5%;
+}
+.th5 {
+	width: 15%;
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.h1 {
+    text-align: center;
+}
+.td1 {
+    word-break: break-all;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+td {
+    text-align: center;
+}
+select {
+	border-color: transparent;
+	font-weight: bold;
+	font-size: unset;
+	cursor: pointer;
+}

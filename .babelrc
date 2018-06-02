@@ -1,0 +1,35 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-0",
+    "react"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-regenerator",
+        "transform-runtime",
+        "transform-es2015-modules-commonjs",
+        "add-module-exports"
+      ]
+    }
+  },
+  "plugins": [
+    "transform-regenerator",
+    ["transform-imports", {
+        "routes": {
+          "transform": "routes/${member}",
+          "preventFullImport": true
+        },
+        "models": {
+          "transform": "models/${member}",
+          "preventFullImport": true
+        },
+        "components": {
+          "transform": "components/${member}",
+          "preventFullImport": true
+        }
+      }],
+      "syntax-dynamic-import"
+  ]
+}
