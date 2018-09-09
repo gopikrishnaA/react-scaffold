@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly only names 1`] = `
+<div>
+  UserName Component
+</div>
+`;
+
+exports[`renders correctly wit image 1`] = `
+<div>
+  UserName Component
+</div>
+`;
+
+exports[`renders correctly with no props 1`] = `
+<div>
+  UserName Component
+</div>
+`;
